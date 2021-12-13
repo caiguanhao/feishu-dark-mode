@@ -1,0 +1,23 @@
+#!/bin/bash
+
+DIR="$(dirname "$BASH_SOURCE")"
+SRC="$DIR/feishu.png"
+TARGET="$DIR/Feishu.iconset"
+
+mkdir -p "$TARGET"
+
+sips -z 16 16   "$SRC" --out "$TARGET/icon_16x16.png"    >/dev/null
+sips -z 32 32   "$SRC" --out "$TARGET/icon_32x32.png"    >/dev/null
+sips -z 128 128 "$SRC" --out "$TARGET/icon_128x128.png"  >/dev/null
+sips -z 256 256 "$SRC" --out "$TARGET/icon_256x256.png"  >/dev/null
+sips -z 512 512 "$SRC" --out "$TARGET/icon_512x512.png"  >/dev/null
+sips -z 64 64   "$SRC" --out "$TARGET/icon_32x32@2x.png" >/dev/null
+
+cp "$TARGET/icon_32x32.png"   "$TARGET/icon_16x16@2x.png"
+cp "$TARGET/icon_256x256.png" "$TARGET/icon_128x128@2x.png"
+cp "$TARGET/icon_512x512.png" "$TARGET/icon_256x256@2x.png"
+cp "$SRC"                     "$TARGET/icon_512x512@2x.png"
+
+iconutil -c icns "$TARGET"
+
+rm -rf "$TARGET"
