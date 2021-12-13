@@ -28,3 +28,12 @@ Original:
 <img src="https://user-images.githubusercontent.com/1284703/145839189-7611cf3c-0f6e-4fcd-982e-ef7354b3c8f4.png" width="500">
 5. Drag the icns file to the Get Info window to update the icon.
 <img src="https://user-images.githubusercontent.com/1284703/145839193-acab2d98-a1a9-43b6-bda3-23221dec3598.png" width="500">
+
+## Make .icns file
+
+You can use .icns file in this repository or generate one by yourself. Needs macOS system.
+
+1. Download `feishu.png` and the `make-icns` script file and put them in the same folder.
+2. Open Terminal and drag the make-icns file to the Terminal window.
+3. Press Enter key to execute the script.
+4. You will see Feishu.icns file.
