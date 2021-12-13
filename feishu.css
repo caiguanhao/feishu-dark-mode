@@ -1,0 +1,155 @@
+body {
+  --G_Title_PrimaryNormalColor: #fff;
+  --G_Text_PrimaryNormalColor: #fff;
+  --G_Bg_PrimaryNormalColor: #202124;
+  --G_Line_PrimarybgNormalColor: #3C4043;
+}
+
+body,
+.chatSidebar_sidebar {
+  background-color: var(--G_Bg_PrimaryNormalColor);
+}
+
+.messageTip__countTip,
+.reactionPanelContainer {
+  background: #202124;
+  border: 1px solid #3C4043;
+}
+
+.reactionPanel:before {
+  background-color: #3C4043;
+}
+
+.reactionPanel,
+.lark-chat .lark-chat-left,
+.chatContainer,
+.appNavbar,
+.feedFilter,
+.feedFilterHeader,
+.simple-publish-box,
+.sideBarMenu,
+.toolbar-panel,
+.uni-btn-default,
+.larklet-extension-component,
+.quick-jump-enter-com__box,
+.groupAuth,
+.groupAuth_searchWrapper,
+.chatSearch_nav,
+.chatSearch-content,
+.chatSearch_inputContainer,
+.chatSearch_input,
+.pinSearch_inputContainer,
+.pinSearch_input,
+.pins_sidebar,
+.pins_sidebar_header,
+.switch-container,
+.base-image-message.larkw-img__wrapper,
+.chatwin-welcome,
+.page-loading {
+  background-color: transparent;
+}
+
+.message-item .message-section-left {
+  background-color: #333333;
+}
+
+.message-not-self .reaction-item {
+  background-color: var(--G_Bg_PrimaryNormalColor);
+}
+
+.groupAuth,
+.groupAuth_groupName,
+.chatSearch-content,
+.chatSearch_input,
+.chatSearchItem_desc,
+.pinSearch_input,
+.menuSidebar_titleBar,
+.message-reactions .reaction-item .reaction-user:hover {
+  color: #fff;
+}
+
+.message-header,
+.message-post,
+.feedCardName {
+  color: #fff;
+}
+
+.lark-chat .lark-chat-gap,
+.groupAuth_infoMember:nth-child(2n):before {
+  background-color: #3C4043;
+}
+
+.feedFilter,
+.chatWindow_header,
+.chatSearch_nav,
+.groupAuth_header,
+.groupAuth_list,
+.groupAuth_search,
+.pinSearch_inputWrap,
+.settingListItems,
+.settingItem {
+  border-color: #3C4043;
+}
+
+.app-container {
+  border-top: 1px solid #3C4043;
+}
+
+.chatEditor {
+  border-top: 1px #3C4043 solid;
+  padding-top: 20px;
+}
+
+.appNavbar {
+  border-right: 1px solid #3C4043;
+}
+
+.quick-jump-enter-com__box,
+.message-section-left,
+.message-item .toolbar-panel,
+.menuSidebar_titleBar,
+.chatSearch_inputWrap,
+.chatSidebar_sidebar {
+  border-color: #3C4043;
+}
+
+.sideBarMenu {
+  border-left: 1px solid #3C4043;
+}
+
+.toolbar-panel .toolbar-item:before {
+  background-color: #3C4043;
+}
+
+.messageItem-divider .line {
+  background-color: #3C4043;
+}
+
+.feedCard {
+  transition: none;
+}
+
+.feedCard:hover:not(.feedCard_active) {
+  background-color: #3D3D3D;
+}
+
+.link,
+.message-not-self .mention {
+  color: #fff;
+  text-decoration: underline #a1a1a1 dashed;
+  text-underline-offset: 3px;
+}
+
+.chatSearchItem-active,
+.navbarMenu_active {
+  background: #0063CC;
+}
+
+.feedCard_active,
+.feedCard_active:before {
+  background-color: #0063CC !important;
+}
+
+body > div > div:not([class]) {
+  visibility: hidden;
+}
