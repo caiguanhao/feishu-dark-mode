@@ -34,6 +34,6 @@ Original:
 You can use .icns file in this repository or generate one by yourself. Needs macOS system.
 
 1. Download `feishu.png` and the `make-icns` script file and put them in the same folder.
-2. Open Terminal and drag the make-icns file to the Terminal window.
+2. Open Terminal and type `bash ` (b-a-s-h-space), and then drag the make-icns file to the Terminal window.
 3. Press Enter key to execute the script.
-4. You will see Feishu.icns file.
+4. You will see Feishu.icns file in that folder.
