@@ -6,6 +6,7 @@ body {
 }
 
 body,
+.in-editor,
 .chatSidebar_sidebar {
   background-color: var(--G_Bg_PrimaryNormalColor);
 }
@@ -49,6 +50,11 @@ body,
   background-color: transparent;
 }
 
+.rich-editzone,
+.simple-publish-box {
+  color: #fff;
+}
+
 .message-item .message-section-left {
   background-color: #333333;
 }
@@ -75,6 +81,7 @@ body,
 }
 
 .lark-chat .lark-chat-gap,
+.post-editor-statusbar:before,
 .groupAuth_infoMember:nth-child(2n):before {
   background-color: #3C4043;
 }
@@ -89,6 +96,10 @@ body,
 .settingListItems,
 .settingItem {
   border-color: #3C4043;
+}
+
+.in-editor {
+  border-top: 1px solid #3C4043;
 }
 
 .app-container {
@@ -143,6 +154,18 @@ body,
 .chatSearchItem-active,
 .navbarMenu_active {
   background: #0063CC;
+}
+
+.larkc-badge-overflow {
+  background-color: #3D3D3D;
+  border-color: #3D3D3D;
+  background-image: url("data:image/svg+xml,%3Csvg height='200' viewBox='0 0 1024 1024' width='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff'%3E%3Cpath d='m176 511a56 56 0 1 0 112 0 56 56 0 1 0 -112 0z'/%3E%3Cpath d='m456 511a56 56 0 1 0 112 0 56 56 0 1 0 -112 0z'/%3E%3Cpath d='m736 511a56 56 0 1 0 112 0 56 56 0 1 0 -112 0z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+}
+
+.larkc-badge-count {
+  background-color: #3D3D3D;
+  border-color: #3D3D3D;
 }
 
 .feedCard_active,
