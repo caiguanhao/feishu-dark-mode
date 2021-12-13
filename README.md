@@ -19,7 +19,7 @@ Original:
 
 ## Create a Google Chrome App
 
-1. Open https://wanico.feishu.cn/messenger/ in Google Chrome
+1. Open https://feishu.cn/messenger/ in Google Chrome
 2. Menu > More Tools > Create Shortcut
 <img src="https://user-images.githubusercontent.com/1284703/145839174-edf3d463-c864-4b01-ae2d-9c4b0d416c90.png" width="500">
 3. Change Name and Check "Open as window"
