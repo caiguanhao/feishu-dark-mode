@@ -10,6 +10,11 @@ body,
 .in-editor,
 .createGroupChat,
 .UnitedInvite_root,
+.user-info .user-avatar .edit-icon,
+.page-setting-new .setting-content .left-frame,
+.larkc-options--option,
+.lark-web-modal-content,
+.quickJump_hint,
 .chatSidebar_sidebar {
   background-color: var(--G_Bg_PrimaryNormalColor);
 }
@@ -25,12 +30,16 @@ input {
 .lark-mention-box,
 .larkc-modall,
 .emoji,
+.larkc-options,
 .mentionSuggestions,
+.passport-join_team-widget,
+.message-section-left,
 .reactionPanelContainer {
   background: #202124;
   border: 1px solid #3C4043;
 }
 
+.tenantUserCard,
 .lark-modal-content,
 .unsupportedFeedWindow,
 .create-group,
@@ -69,24 +78,51 @@ input {
 .larkc-searchInput,
 .ExternalContact_frame,
 .ExternalContactsSearch_empty,
+.page-setting-new .setting-content .right-frame,
+.larkc-select--selectorContainer,
+.box-item-wrapper,
+.base-code-box,
+.base-button,
 .page-loading {
   background-color: transparent;
 }
 
 .UnitedInvite_closeIcon,
 .rich-editzone,
-.simple-publish-box {
+.tenantUserCard_link,
+.page-setting-new .setting-header,
+.page-setting-new .setting-content .right-frame,
+.page-setting-new .setting-content .left-frame,
+.larkc-select--selectorContainer,
+.larkc-options,
+.base-title-container .base-title-title,
+.box-item-content-title,
+.base-button,
+.simple-publish-box,
+.jumpItem_nameWrapper,
+[class^="text-line-"],
+[class*=" text-line-"] {
   color: #fff;
 }
 
+.base-code-box-input {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+  background-color: #333333;
+  height: 30px;
+}
+
+.app-card,
+.app-card .app-footer,
+.reaction-item,
+.tenantUserCard_link:hover,
 .sticker-set-toolbar,
-.sticker-set-toolbar .scroller-item.choose,
-.message-item .message-section-left {
+.sticker-set-toolbar .scroller-item.choose {
   background-color: #333333;
 }
 
-.message-not-self .reaction-item {
-  background-color: var(--G_Bg_PrimaryNormalColor);
+.button-text-link:hover {
+  background-color: #222;
 }
 
 .larkc-modall-title,
@@ -99,8 +135,10 @@ input {
 .setting-button-text,
 .pinSearch_input,
 .menuSidebar_titleBar,
-.message-reactions .reaction-item .reaction-user:hover,
-.UnitedInvite_closeIcon {
+.reaction-item,
+.UnitedInvite_closeIcon,
+.reaction-user:hover,
+.app-content-item-right {
   color: #fff;
 }
 
@@ -122,16 +160,26 @@ input {
 .message-post,
 .UnitedInvite_title,
 .ExternalContactsSearch_empty,
+.notify-setting .sound-text,
 .feedCardName {
   color: #fff;
 }
 
+.page-setting-new .setting-content .left .sidebarCard_icon {
+  fill: #fff;
+}
+
+.app-card .app-footer:before,
+.team-discovery-group-item-sep,
+.page-setting-new .setting-line,
+.page-setting-new .setting-content .right .all-setting .setting-section-line,
 .lark-chat .lark-chat-gap,
 .post-editor-statusbar:before,
 .groupAuth_infoMember:nth-child(2n):before {
   background-color: #3C4043;
 }
 
+.page-setting-new .setting-content .left-frame,
 .feedFilter,
 .chatWindow_header,
 .chatSearch_nav,
@@ -140,6 +188,7 @@ input {
 .groupAuth_search,
 .pinSearch_inputWrap,
 .settingListItems,
+.team-discovery-group-list,
 .settingItem {
   border-color: #3C4043;
 }
@@ -199,6 +248,8 @@ input {
 
 .chatSearchItem-active,
 .navbarMenu_active,
+.page-setting-new .setting-content .card.choose,
+.page-setting-new .setting-content .card:hover,
 .organizationOrContactTabItem:hover,
 .memberChoosePanel__memberItem:hover {
   background: #0063CC;
@@ -225,6 +276,11 @@ input {
   background-color: #0063CC !important;
 }
 
-body > div > div:not([class]) {
+.lark-web-modal-mask,
+#__passport_join_team_container {
+  background: rgb(0 0 0 / 75%);
+}
+
+body > div > div:not([class]):not([id]) {
   visibility: hidden;
 }
