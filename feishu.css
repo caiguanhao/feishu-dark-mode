@@ -3,20 +3,37 @@ body {
   --G_Text_PrimaryNormalColor: #fff;
   --G_Bg_PrimaryNormalColor: #202124;
   --G_Line_PrimarybgNormalColor: #3C4043;
+  color: #fff;
 }
 
 body,
 .in-editor,
+.createGroupChat,
+.UnitedInvite_root,
 .chatSidebar_sidebar {
   background-color: var(--G_Bg_PrimaryNormalColor);
 }
 
+input {
+  background-color: var(--G_Bg_PrimaryNormalColor);
+  color: #fff;
+}
+
+.ExternalContactsSearch_list,
 .messageTip__countTip,
+.quick-jump-wrapper,
+.lark-mention-box,
+.larkc-modall,
+.emoji,
+.mentionSuggestions,
 .reactionPanelContainer {
   background: #202124;
   border: 1px solid #3C4043;
 }
 
+.lark-modal-content,
+.unsupportedFeedWindow,
+.create-group,
 .reactionPanel:before {
   background-color: #3C4043;
 }
@@ -46,15 +63,24 @@ body,
 .switch-container,
 .base-image-message.larkw-img__wrapper,
 .chatwin-welcome,
+.search-input-container,
+.create-group .group-info .group-info-input,
+.createCommonGroup_item-memberSelect .item-content,
+.larkc-searchInput,
+.ExternalContact_frame,
+.ExternalContactsSearch_empty,
 .page-loading {
   background-color: transparent;
 }
 
+.UnitedInvite_closeIcon,
 .rich-editzone,
 .simple-publish-box {
   color: #fff;
 }
 
+.sticker-set-toolbar,
+.sticker-set-toolbar .scroller-item.choose,
 .message-item .message-section-left {
   background-color: #333333;
 }
@@ -63,19 +89,39 @@ body,
   background-color: var(--G_Bg_PrimaryNormalColor);
 }
 
+.larkc-modall-title,
 .groupAuth,
 .groupAuth_groupName,
 .chatSearch-content,
 .chatSearch_input,
 .chatSearchItem_desc,
+.chatSearch_defaultShow_txt,
+.setting-button-text,
 .pinSearch_input,
 .menuSidebar_titleBar,
-.message-reactions .reaction-item .reaction-user:hover {
+.message-reactions .reaction-item .reaction-user:hover,
+.UnitedInvite_closeIcon {
   color: #fff;
 }
 
+.createGroupChat_title,
+.createCommonGroup_item .item-title,
+.url-preview-header-title,
+.url-preview-content,
+.user-setting-header .right .title,
+.unsupportedFeedWindow-title,
+.lark-modal-header .header-title,
+.larkw-search-picker-drl-tree-node-content-wrap,
+.larkw-search-picker-hint,
+.larkw-search-picker-select-option-name,
+.select-item-info-name,
+.create-group .group-info,
+.search-input-container input,
+.create-group .group-info .group-info-input,
 .message-header,
 .message-post,
+.UnitedInvite_title,
+.ExternalContactsSearch_empty,
 .feedCardName {
   color: #fff;
 }
@@ -152,7 +198,9 @@ body,
 }
 
 .chatSearchItem-active,
-.navbarMenu_active {
+.navbarMenu_active,
+.organizationOrContactTabItem:hover,
+.memberChoosePanel__memberItem:hover {
   background: #0063CC;
 }
 
@@ -166,6 +214,10 @@ body,
 .larkc-badge-count {
   background-color: #3D3D3D;
   border-color: #3D3D3D;
+}
+
+.larkc-tag {
+  background-color: #000000;
 }
 
 .feedCard_active,
