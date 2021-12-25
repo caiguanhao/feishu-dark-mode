@@ -15,11 +15,28 @@ body,
 .larkc-options--option,
 .lark-web-modal-content,
 .quickJump_hint,
-.chatSidebar_sidebar {
+.morePanel,
+.feedFilterMask,
+.feedFilter,
+.chatSidebar_sidebar,
+.height-limit-cut-modal:after {
   background-color: var(--G_Bg_PrimaryNormalColor);
 }
 
-input {
+.height-limit-cut-modal {
+  background-image: linear-gradient(-180deg,transparent,var(--G_Bg_PrimaryNormalColor));
+}
+
+.status-text .content,
+.mobile-input-code,
+.mobile-input-phone,
+.base-input,
+.quickJump_input,
+.chat-name-input,
+.larkc-searchInput--input,
+.larkc-usercard__footer__input,
+.empty-placeholder-input,
+.memberChoosePanel__searchInputEle {
   background-color: var(--G_Bg_PrimaryNormalColor);
   color: #fff;
 }
@@ -34,11 +51,19 @@ input {
 .mentionSuggestions,
 .passport-join_team-widget,
 .message-section-left,
+.read-status,
+.editor-more-panel,
 .reactionPanelContainer {
   background: #202124;
   border: 1px solid #3C4043;
 }
 
+.feedFilterSectionOption:hover,
+.feedFilterSectionHeader:before,
+.quickJump_box:after,
+.larkc-usercard,
+.read-status .read-list:last-child:after,
+.simple-publish-box .reply-title,
 .tenantUserCard,
 .lark-modal-content,
 .unsupportedFeedWindow,
@@ -47,12 +72,14 @@ input {
   background-color: #3C4043;
 }
 
+.contactTab,
 .reactionPanel,
 .lark-chat .lark-chat-left,
 .chatContainer,
 .appNavbar,
-.feedFilter,
 .feedFilterHeader,
+.feedFilterSectionHeader,
+.feedFilterSectionOption,
 .simple-publish-box,
 .sideBarMenu,
 .toolbar-panel,
@@ -82,11 +109,15 @@ input {
 .larkc-select--selectorContainer,
 .box-item-wrapper,
 .base-code-box,
+.larkc-usercard__footer-buttons,
 .base-button,
+.scroll-done,
+.add-user-to-group,
 .page-loading {
   background-color: transparent;
 }
 
+.contactPage,
 .UnitedInvite_closeIcon,
 .rich-editzone,
 .tenantUserCard_link,
@@ -100,6 +131,9 @@ input {
 .base-button,
 .simple-publish-box,
 .jumpItem_nameWrapper,
+.read-status .read-list .count,
+.morePanelItem,
+.editor-more-panel .list-item .content .label,
 [class^="text-line-"],
 [class*=" text-line-"] {
   color: #fff;
@@ -112,6 +146,20 @@ input {
   height: 30px;
 }
 
+.height-limit-btn {
+  background: #333333;
+  color: #fff;
+}
+
+.larkc-card:hover,
+.contactPage-nav-divider,
+.organizationDepartments>.department:before,
+.contactPageNav_item.active>.larkc-card,
+.contactTab_body.group>.groupTabs:before,
+.SharingCard_link,
+.editor-more-panel .list-item:hover,
+.morePanelItem:hover,
+.morePanelItem_checked,
 .app-card,
 .app-card .app-footer,
 .reaction-item,
@@ -121,10 +169,18 @@ input {
   background-color: #333333;
 }
 
+.contactPageNav,
+.contactTab_header,
+.larkc-folder-card {
+  border-color: #333;
+}
+
 .button-text-link:hover {
   background-color: #222;
 }
 
+.SharingCard_title,
+.larkc-editable-text,
 .larkc-modall-title,
 .groupAuth,
 .groupAuth_groupName,
@@ -179,6 +235,7 @@ input {
   background-color: #3C4043;
 }
 
+.larkc-usercard__footer__input,
 .page-setting-new .setting-content .left-frame,
 .feedFilter,
 .chatWindow_header,
@@ -189,8 +246,14 @@ input {
 .pinSearch_inputWrap,
 .settingListItems,
 .team-discovery-group-list,
+.morePanel:after,
 .settingItem {
   border-color: #3C4043;
+}
+
+.tenantUserCard_status,
+.tenantUserCard_linkLine {
+  border-color: #62686c;
 }
 
 .in-editor {
