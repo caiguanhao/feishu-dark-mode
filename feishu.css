@@ -1,4 +1,4 @@
-body {
+body.lark-web {
   --G_Title_PrimaryNormalColor: #fff;
   --G_Text_PrimaryNormalColor: #fff;
   --G_Bg_PrimaryNormalColor: #202124;
@@ -6,7 +6,7 @@ body {
   color: #fff;
 }
 
-body,
+body.lark-web,
 .in-editor,
 .createGroupChat,
 .UnitedInvite_root,
